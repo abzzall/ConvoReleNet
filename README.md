@@ -50,7 +50,8 @@ You can also use a virtual environment:
 python3 -m venv convoenv
 source convoenv/bin/activate      # Linux / macOS
 convoenv\Scripts\activate         # Windows
-pip install -r requirements.txt
+pip install torch==1.10 numpy scipy scikit-learn mne matplotlib
+
 ```
 
 ---
